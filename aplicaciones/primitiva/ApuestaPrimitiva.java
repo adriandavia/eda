@@ -1,4 +1,4 @@
-package aplicaciones.primitivas;
+package aplicaciones.primitiva;
 
 import librerias.estructurasDeDatos.modelos.ListaConPI;
 import librerias.estructurasDeDatos.lineales.LEGListaConPI;
@@ -36,9 +36,9 @@ public class ApuestaPrimitiva {
         }
         
         for(int i = 0; i < 6; i++) {
-                NumeroPrimitiva e = new NumeroPrimitiva();
-                combinacion.insertar(e);
-            }
+            NumeroPrimitiva e = new NumeroPrimitiva();
+            combinacion.insertar(e);
+        }
     }
     
     /**
@@ -55,12 +55,13 @@ public class ApuestaPrimitiva {
     protected int posicionDe(NumeroPrimitiva n) {
         /* COMPLETAR */
         int i = 0;
-        while(!combinacion.esFin() && !combinacion.recuperar().equals(n)){
+        combinacion.inicio();
+        while(!combinacion.esFin() && combinacion.recuperar().compareTo(n) != 0){
             combinacion.siguiente();
             i++;
         }
-        if (combinacion.esFin()) { return -1;}
-        return i;
+        if(!combinacion.esFin()) return i;
+        return -1;
     }
     
     /**
@@ -73,10 +74,17 @@ public class ApuestaPrimitiva {
         /* COMPLETAR */
         String msj = "";
         combinacion.inicio();
-        while(!combinacion.esFin()) {
-            msj += combinacion.recuperar().toString() + ", ";
+        int pos = 1;
+        while(pos <= 6) {
+            if(pos == 6) msj += combinacion.recuperar().toString();
+            else msj += combinacion.recuperar().toString() + ",";
             combinacion.siguiente();
+            pos++;
         }
         return msj;
+    }
+    public void fin() {
+        combinacion.fin();
+        System.out.println(combinacion.recuperar());
     }
 }

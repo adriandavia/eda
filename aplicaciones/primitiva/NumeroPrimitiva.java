@@ -1,4 +1,4 @@
-package aplicaciones.primitivas;
+package aplicaciones.primitiva;
 
 import java.util.Random;
 /** NumeroPrimitiva: representa un numero entero
@@ -45,7 +45,7 @@ public class NumeroPrimitiva implements Comparable<NumeroPrimitiva>{
      */
     
     /* COMPLETAR EL METODO compareTo */
-    public int compareTo(NumeroPrimitiva e){
+    public int compareTo(NumeroPrimitiva e) { 
         return this.numero - e.numero;
     }
     
@@ -58,4 +58,5 @@ public class NumeroPrimitiva implements Comparable<NumeroPrimitiva>{
     public String toString() {
         return Integer.toString(numero);
     }
+    
 }

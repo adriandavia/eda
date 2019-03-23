@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.target=ApuestaPrimitiva
+comment0.text=\ \r\n\ ApuestaPrimitiva\:\ representa\ una\ apuesta\ aleatoria\ de\ La\ Primitiva,\ \r\n\ o\ combinacion\ de\ 6\ numeros\ distintos\ entre\ el\ 1\ y\ el\ 49\ elegidos\ \ \r\n\ de\ forma\ aleatoria.\r\n\ \r\n\ @version\ Febrero\ 2019\r\n
+comment1.params=ordenada
+comment1.target=ApuestaPrimitiva(boolean)
+comment1.text=\r\n\ Crea\ una\ ApuestaPrimitiva,\ o\ una\ combinacion\ de\ \ \r\n\ seis\ numeros\ aleatorios\ con\ valores\ distintos\ y\ \ \ \r\n\ en\ el\ intervalo\ [1,\ 49].\r\n\ \r\n\ @param\ ordenada\ Un\ boolean\ que\ indica\ si\ la\ combinacion,\ \ \r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ sus\ 6\ numeros,\ debe\ estar\ ordenada\ Asc.\r\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ (true)\ o\ no\ (false).\ \ \ \ \ \ \ \ \ \ \ \r\n
+comment2.params=
+comment2.target=java.lang.String\ toString()
+comment2.text=\r\n\ Devuelve\ el\ String\ que\ representa\ una\ ApuestaPrimitiva\ en\ el\ formato\r\n\ texto\ que\ muestra\ el\ siguiente\ ejemplo\:\ "16,\ 25,\ 28,\ 49,\ 9,\ 20"\r\n\ \r\n\ @return\ el\ String\ con\ la\ ApuestaPrimitiva\ en\ el\ formato\ texto\ dado.\ \r\n
+comment3.params=
+comment3.target=void\ fin()
+numComments=4
