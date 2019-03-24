@@ -34,10 +34,15 @@ public class ApuestaPrimitiva {
         } else {
             combinacion = new LEGListaConPI();
         }
-        
-        for(int i = 0; i < 6; i++) {
+        int i = 0;
+        while(i < 6) {
             NumeroPrimitiva e = new NumeroPrimitiva();
-            combinacion.insertar(e);
+            boolean insertar = true;
+            for(combinacion.inicio(); !combinacion.esFin(); combinacion.siguiente()){
+                if(combinacion.recuperar().equals(e)) insertar = false;
+            }
+            combinacion.fin();
+            if(insertar) {combinacion.insertar(e); i++;}
         }
     }
     
