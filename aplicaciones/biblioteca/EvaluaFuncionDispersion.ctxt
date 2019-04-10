@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=EvaluaFuncionDispersion
-comment0.text=\r\n\ Clase\ programa\ para\ comprobar\ la\ efectividad\ de\ las\ 4\ funciones\ de\ dispersion\ propuestas\ sobre\ cadenas\r\n\ de\ caracteres.\ \r\n\ Como\ datos\ utiliza\ los\ terminos\ que\ se\ encuentran\ en\ los\ documentos\ listados\ en\ el\ fichero\ lista10.txt\r\n\ Como\ resultados,\ muestra\ por\ pantalla\ el\ factor\ de\ carga\ y\ la\ desviacion\ tipica\ para\ las\ 4\ funciones\r\n\ y\ genera\ ficheros\ de\ texto\ en\ la\ carpeta\ res\ con\ los\ histogramas\ correspondientes.\r\n\ \r\n\ @author\ (EDA)\ \r\n\ @version\ (Marzo\ 2018)\r\n
+comment0.text=\n\ Clase\ programa\ para\ comprobar\ la\ efectividad\ de\ las\ 4\ funciones\ de\ dispersion\ propuestas\ sobre\ cadenas\n\ de\ caracteres.\ \n\ Como\ datos\ utiliza\ los\ terminos\ que\ se\ encuentran\ en\ los\ documentos\ listados\ en\ el\ fichero\ lista10.txt\n\ Como\ resultados,\ muestra\ por\ pantalla\ el\ factor\ de\ carga\ y\ la\ desviacion\ tipica\ para\ las\ 4\ funciones\n\ y\ genera\ ficheros\ de\ texto\ en\ la\ carpeta\ res\ con\ los\ histogramas\ correspondientes.\n\ \n\ @author\ (EDA)\ \n\ @version\ (Marzo\ 2018)\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 comment2.params=listaLibros\ fdis
